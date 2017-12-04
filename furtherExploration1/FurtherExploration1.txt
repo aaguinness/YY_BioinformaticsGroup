@@ -1,0 +1,10 @@
+We ran both a discontiguous megablast and blastn on the first and second transcript from the uniquetranscripts.fasta file.
+Our original megablast contained 106 hits for Transcript 1 and 55 hits for Transcript 2.
+The discontiguous megablast resulted in 105 hits for Transcript 1 and 150 hits for Transcript 2. 
+The blastn search resulted in 106 hits for Transcript 1 and 158 hits for Transcript 2. 
+
+We realized that the broadened searches generated essentially the same hits for Transcript 1 but much more hits for Transcript 2.
+However, both broaded searches generated very similar results. 
+
+When we restricted the database for only Human matches. The number of hits drastically decreased for both searches. However, blastn generated more hits than discontiguous megablast.
+This makes sense because blastn is better suited for searching across phylogenies.
