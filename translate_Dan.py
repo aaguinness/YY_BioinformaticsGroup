@@ -7,12 +7,10 @@ import pandas as pd
 # load codon table and turn it into a dictionary
 with open("codonmap.txt") as fin:
     rows = (line.split('\t') for line in fin)
-    codon = {row[0]: row[1:] for row in rows}
-
+    codontable = {row[0]: row[1:] for row in rows}
 
 def translate(seq):
     peptide = ''
-
     start = seq.find('ATG')
     seqtrimmed = seq[int(start):]
     for n in range(0, len(seqtrimmed), 3):
@@ -26,10 +24,6 @@ def translate(seq):
 
 
 
-
-
-
-
 # load fasta file
 fasta = open('control1.fasta',"r")
 
@@ -39,4 +33,8 @@ for line in fasta:
     if ">" in line:
         seqid = line
         print seqid
+    else:
+        trans = translate(line)
+        print trans
+
 
