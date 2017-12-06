@@ -1,0 +1,15 @@
+Comments for timaburton modeling project
+
+There may be value in changing your graph colors (the grey is difficult to see) and add a plot legend. ggplot does have a legend argument. You can also specify colors using hex codes as "#FFFFFF", etc. (syntax may be slightly different in Python; this is true for R)
+
+ggplot code looks neater with + on new line (with tabs) to make code more easily readable. 
+
+Nice use of lists and tuples.
+
+Code is very well commented and organized into well-sized, manageable file numbers. 
+
+For file PredatorVPREY.pdf, it would be nice to add labels (and maths) designed to make sense of the diagrams you put together for the two model types in ppt. 
+
+It may have been cleaner to have made a params df in lieu of many vectors. 
+
+Use of Markdown really good! 
