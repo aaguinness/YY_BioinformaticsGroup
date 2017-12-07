@@ -1,4 +1,4 @@
-import pandas
+mport pandas
 import numpy as np
 import scipy
 import scipy.integrate as spint
