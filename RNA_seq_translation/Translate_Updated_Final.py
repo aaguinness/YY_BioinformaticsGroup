@@ -19,8 +19,8 @@ with open("codonmap.txt") as f:
 # translate function
 def translate(seq):
     peptide = ''
-    grab = r"([ATCG]{3})*?(ATG)(([ATCG]{3})+?(TAA|TAG|TGA))"
-    match = r'\2\3\4'
+    grab = r"([ATCG]{3})*?(ATG([ATCG]{3})+?(TAA|TAG|TGA))"
+    match = r'\2'
     ORF = re.sub(grab, match, seq)
     for n in range(0,len(ORF),3):
         codon = ORF[n:n+3]
