@@ -2,13 +2,12 @@ ReadMe File
 
 Bioinformatics Group (1 of 2) Project Plan:
 
-Abigail: BLAST / NCBI work
-Drew: Translation script
+Abigail: BLAST / NCBI work / further exploration 1
+Drew: Translation script / markup
 Balaji: Hidden Markov Model
-Katherine: Graph expression levels
-Dan: Further Exploration 2
+Katherine: Graph expression levels / further exploration 1
+Dan: Further Exploration 2 / markup
 
-Further exploration 1 is fair game?
 
 
 Timeline:
@@ -19,3 +18,6 @@ Translation script by Sat Dec 2 ~ Drew
 
 Balaji by Monday Dec 4
 
+Dan- Dec 5
+
+finish up everything by the 7th!
