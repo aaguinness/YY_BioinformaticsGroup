@@ -1,18 +1,21 @@
-mport pandas
-import numpy as np
-import scipy
-import scipy.integrate as spint
+# translates RNA seq data to amino acids
+# this python code needs to be run in the directory where the untranslated RNA sequences are located
+# this code also needs a tab deliminated codon table
+# with Amino acids in the fist column and associated  DNA sequences in the second column
+
+# load libs
 import glob
-from plotnine import *
 import os
 os.getcwd()
 
+# open codon map and make a dictionary
 codonmap = {}
 with open("codonmap.txt") as f:
     for line in f:
        (val, key) = line.split()
        codonmap[key] = val
-  
+
+# translate function
 def translate(seq):
     peptide = ''
     
@@ -26,7 +29,8 @@ def translate(seq):
         else:
             break
     return peptide
-    
+
+# loop through .fasta files in the directory to translate and writes new translated .fasta files
 for fasta_file in glob.iglob('newseq/*.fasta'):
     InFile=open(fasta_file,"r") #Open fasta file as read-only
     Out_file = os.path.basename(fasta_file)
