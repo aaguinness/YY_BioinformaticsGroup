@@ -11,7 +11,7 @@ shows no qualitative difference between control and obese mice for this gene.
 
 Gene: Ptpn5
 K+P found significant increase in obese mice, but our results show no qualitative 
-difference between control and obese mice for this gene..
+difference between control and obese mice for this gene.
 
 Gene: Atp12a
 Relative expression increased from control mice to obese mice, which matches the 
