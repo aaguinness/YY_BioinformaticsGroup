@@ -1,6 +1,11 @@
 #load packages
-import pandas
+import pandas as pd
 from plotnine import *
+import os
+
+os.chdir("..")
+os.chdir("./NCBI_protien_search_results/hits_table")
+
 
 #read in hmm search output files and add column names for ggplot
 Transcript1 = pd.read_csv("1.sequences.table", sep=' ', header=None)
