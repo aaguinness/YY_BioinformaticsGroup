@@ -19,8 +19,8 @@ with open("codonmap.txt") as f:
 # translate function
 def translate(seq):
     peptide = ''
-    match = re.search(r"ATG([ATCG]{3})+(TAA|TAG|TGA)",seq)
-    ORF = match.group(0)
+    match = re.search(r"([ATCG]{3})*?(ATG([ATCG]{3})+?(TAA|TAG|TGA))",seq)
+    ORF = match.group(2)
     for n in range(0,len(ORF),3):
         codon = ORF[n:n+3]
         aa = codonmap.get(codon, '*')
@@ -29,6 +29,7 @@ def translate(seq):
         else:
             break
     return peptide
+
 
 # loop through .fasta files in the directory to translate and writes new translated .fasta files
 for fasta_file in glob.iglob('newseq/*.fasta'):
