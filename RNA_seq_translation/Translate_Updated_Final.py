@@ -44,6 +44,5 @@ for fasta_file in glob.iglob('*.fasta'):
             else:
                 f.write(translate(line)+'\n')
 
-
 f.close()
 InFile.close()
