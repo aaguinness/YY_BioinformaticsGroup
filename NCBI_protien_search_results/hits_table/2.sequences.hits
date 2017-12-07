@@ -1,0 +1,28 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Obese2               -          2.sequences          -            6.9e-87  286.7  25.0   7.1e-38  124.5   1.7   7.4   2   2   5   7   7   7   7 -
+Obese2               -          2.sequences          -            6.9e-87  286.7  25.0   7.1e-38  124.5   1.7   7.4   2   2   5   7   7   7   7 -
+Obese2               -          2.sequences          -            6.9e-87  286.7  25.0   7.1e-38  124.5   1.7   7.4   2   2   5   7   7   7   7 -
+Obese2               -          2.sequences          -            6.9e-87  286.7  25.0   7.1e-38  124.5   1.7   7.4   2   2   5   7   7   7   7 -
+Obese2               -          2.sequences          -            6.9e-87  286.7  25.0   7.1e-38  124.5   1.7   7.4   2   2   5   7   7   7   7 -
+Obese2               -          2.sequences          -            6.9e-87  286.7  25.0   7.1e-38  124.5   1.7   7.4   2   2   5   7   7   7   7 -
+Obese2               -          2.sequences          -            6.9e-87  286.7  25.0   7.1e-38  124.5   1.7   7.4   2   2   5   7   7   7   7 -
+Obese2               -          2.sequences          -            6.9e-87  286.7  25.0   7.1e-38  124.5   1.7   7.4   2   2   5   7   7   7   7 -
+Obese2               -          2.sequences          -            6.9e-87  286.7  25.0   7.1e-38  124.5   1.7   7.4   2   2   5   7   7   7   7 -
+Obese2               -          2.sequences          -            6.9e-87  286.7  25.0   7.1e-38  124.5   1.7   7.4   2   2   5   7   7   7   7 -
+Obese2               -          2.sequences          -            6.9e-87  286.7  25.0   7.1e-38  124.5   1.7   7.4   2   2   5   7   7   7   7 -
+Obese2               -          2.sequences          -            6.9e-87  286.7  25.0   7.1e-38  124.5   1.7   7.4   2   2   5   7   7   7   7 -
+Obese2               -          2.sequences          -            6.9e-87  286.7  25.0   7.1e-38  124.5   1.7   7.4   2   2   5   7   7   7   7 -
+Obese2               -          2.sequences          -            6.9e-87  286.7  25.0   7.1e-38  124.5   1.7   7.4   2   2   5   7   7   7   7 -
+Obese2               -          2.sequences          -            6.9e-87  286.7  25.0   7.1e-38  124.5   1.7   7.4   2   2   5   7   7   7   7 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      2.sequences.hmm
+# Target file:     ../RNA_seq_translation/obese2_translated.fasta
+# Option settings: ../../hmmsearch --tblout 2.sequences.hits 2.sequences.hmm ../RNA_seq_translation/obese2_translated.fasta 
+# Current dir:     /Users/sampathkumarbalaji/EX_BIOS_Proj/YY_BioinformaticsGroup/YY_BioinformaticsGroup/NCBI_protien_search_results
+# Date:            Thu Dec  7 16:02:35 2017
+# [ok]

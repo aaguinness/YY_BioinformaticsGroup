@@ -1,0 +1,14 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Obese2               -          1.sequences          -           3.5e-141  463.0   0.4  3.9e-141  462.9   0.4   1.0   1   0   0   1   1   1   1 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      1.sequences.hmm
+# Target file:     ../RNA_seq_translation/obese2_translated.fasta
+# Option settings: ../../hmmsearch --tblout 1.sequences.hits 1.sequences.hmm ../RNA_seq_translation/obese2_translated.fasta 
+# Current dir:     /Users/sampathkumarbalaji/EX_BIOS_Proj/YY_BioinformaticsGroup/YY_BioinformaticsGroup/NCBI_protien_search_results
+# Date:            Thu Dec  7 16:02:32 2017
+# [ok]

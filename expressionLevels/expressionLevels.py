@@ -1,5 +1,5 @@
 #load packages
-import pandas
+import pandas as pd
 from plotnine import *
 
 #read in hmm search output files and add column names for ggplot

@@ -10,16 +10,16 @@ K+P reported a significant decrease of expression in obese mice. However, our da
 shows no qualitative difference between control and obese mice for this gene.
 
 Gene: Ptpn5
-Hmmsearch yielded no matches for this gene, thus we cannot qualitatively compare to 
-K+P, which found significant increase in obese mice.
+K+P found significant increase in obese mice, but our results show no qualitative 
+difference between control and obese mice for this gene..
 
 Gene: Atp12a
 Relative expression increased from control mice to obese mice, which matches the 
 trend observed in K+P.
 
 Gene: Lhx2
-Hmm also yielded no results for this gene. K+P found a significant increase in 
-expression in obese mice.
+Relative expression increased in obese mice. K+P found a significant increase in 
+expression in obese mice as well.
 
 Gene: Synpr
 Relative expression greatly increased in obese mice compared to control mice. This 
