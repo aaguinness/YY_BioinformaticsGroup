@@ -21,8 +21,8 @@ Obese2               -          2.sequences          -            6.9e-87  286.7
 # Version:         3.1b2 (February 2015)
 # Pipeline mode:   SEARCH
 # Query file:      2.sequences.hmm
-# Target file:     obese2_translated.fasta
-# Option settings: /Users/sampathkumarbalaji/Downloads/hmmer-3.1b2-macosx-intel/binaries/hmmsearch --tblout 2.sequences.hits 2.sequences.hmm obese2_translated.fasta 
-# Current dir:     /Users/sampathkumarbalaji/EX_BIOS_Proj/YY_BioinformaticsGroup/YY_BioinformaticsGroup
-# Date:            Mon Dec  4 20:00:53 2017
+# Target file:     ../RNA_seq_translation/obese2_translated.fasta
+# Option settings: ../../hmmsearch --tblout 2.sequences.hits 2.sequences.hmm ../RNA_seq_translation/obese2_translated.fasta 
+# Current dir:     /Users/sampathkumarbalaji/EX_BIOS_Proj/YY_BioinformaticsGroup/YY_BioinformaticsGroup/NCBI_protien_search_results
+# Date:            Thu Dec  7 16:02:35 2017
 # [ok]
