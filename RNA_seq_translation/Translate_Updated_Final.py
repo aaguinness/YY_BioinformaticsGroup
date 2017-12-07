@@ -6,6 +6,7 @@
 # load libs
 import glob
 import os
+import re
 os.getcwd()
 
 # open codon map and make a dictionary
@@ -18,11 +19,10 @@ with open("codonmap.txt") as f:
 # translate function
 def translate(seq):
     peptide = ''
-    
-    start = seq.find('ATG')
-    seqtrimmed = seq[int(start):]
-    for n in range(0,len(seqtrimmed),3):
-        codon = seqtrimmed[n:n+3]
+    match = re.search(r"ATG([ATCG]{3})+(TAA|TAG|TGA)",seq)
+    ORF = match.group(0)
+    for n in range(0,len(ORF),3):
+        codon = ORF[n:n+3]
         aa = codonmap.get(codon, '*')
         if aa != 'Stop':
             peptide += aa
@@ -44,5 +44,3 @@ for fasta_file in glob.iglob('newseq/*.fasta'):
                 f.write(translate(line)+'\n') #Translation
 f.close()            
 InFile.close()
-            
-        
