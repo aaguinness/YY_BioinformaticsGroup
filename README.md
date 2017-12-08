@@ -4,7 +4,7 @@ Bioinformatics Group (1 of 2) Project Plan:
 
 Abigail: BLAST / NCBI work / further exploration 1
 Drew: Translation script / markup
-Balaji: Hidden Markov Model
+Balaji: Hidden Markov Model / Further Exploration 2
 Katherine: Graph expression levels / further exploration 1
 Dan: Further Exploration 2 / markup
 
